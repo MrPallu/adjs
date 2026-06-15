@@ -52,6 +52,7 @@
     margin-bottom:80px;
     box-shadow:1px 1px 1px rbga(1,1,1,0.15);
     background-color: rgba(255,255,255,0.3);
+    backdrop-filter:blur(10px);
     border-radius:10px;
     width:1300px;
 
