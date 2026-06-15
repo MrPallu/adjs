@@ -1,0 +1,115 @@
+
+
+
+.trending-bhajan{
+    color:white;
+    font-family:Roboto,Arial;
+}
+
+.trending-bhajan-head{
+    margin-top:0;
+    font-size:50px;
+    font-weight:bold;
+
+}
+
+.trending-bhajan-name{
+    font-style: oblique;
+    margin-bottom:20px;
+    color:white;
+}
+
+.bhajans-txt{
+    font-size:50px;
+    color:white;
+    font-weight: bold;
+    margin-top:60px;
+    margin-bottom:80px;
+
+}
+
+
+.bhajan-detail-container button{
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    font-weight: bold;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+.bhajan-detail-container button:hover{
+    background-color:rgb(209, 208, 208);
+
+}
+
+.bhajan-detail-container button:active{
+    background-color: black;
+    color:white;
+}
+.bhajan-detail-container{
+    display:flex;
+    margin-bottom:80px;
+    box-shadow:1px 1px 1px rbga(1,1,1,0.15);
+    background-color: black;
+    border-radius:10px;
+    width:1300px;
+
+    align-items:center;
+
+}
+
+.god-details{
+    display:flex;
+    flex-direction:column ;
+    height:100px;
+
+    margin-left:-10px;
+    margin-top:4px;
+
+    border-radius: 10px;
+    width:1000px;
+}
+
+.lord-name{
+    color:white;
+    margin-top:20px;
+    margin-bottom:0px;
+    margin-left:50px;
+    font-size: 45px;
+    font-family:Bonheur Royale;
+    font-weight: 700;
+    
+}
+.link-to-view{
+    margin-left:20px;
+    margin-top:0;
+    color:white;
+    width:1000px;
+}
+.god-img{
+    margin-right:0px;
+    margin-left:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    width:100px;
+    border-radius: 8px;
+    transition: box-shadow 0.1s,margin 0.1s;
+
+}
+
+.god-img:hover{
+    margin-right:4px;
+    margin-bottom:4px;
+    margin-top:-4px;
+    margin-left:-4px;
+    box-shadow: 4px 4px 2px rgba(255,255,255,0.5);
+}
+
+.god-img:active{
+    margin-right:0px;
+    margin-left:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    box-shadow: none;
+}
+

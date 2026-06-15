@@ -1,0 +1,157 @@
+.header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+}
+
+.left-side-header{
+    background-color:black;
+    position:relative;
+
+}
+
+
+
+
+.about-us .tooltip{
+    right:-50px;
+    bottom:20px;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity 0.1s;
+}
+
+.about-us:hover .tooltip{
+    opacity:1;
+}
+.om-icon{
+    width:50px;
+    border-radius:25px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color:blueviolet;
+    background-color:black;
+    margin-left:20px;
+    margin-right:20px;
+    transition: border-style 0.4s,background-color 0.3s;
+}
+
+.om-icon:hover{
+    border-style: solid;
+    background-color:rgb(40, 40, 40);
+    
+}
+
+
+
+.center-side-header{
+    background-color: black;
+    display:flex;
+    width:400px;
+    position:relative;
+}
+
+
+.search-box{
+    flex:1;
+    width:0;
+    padding:10px 10px;
+    font-size: 18px;
+    outline-color:black;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+
+.search-icon-container .tooltip{
+    bottom:-23px;
+    opacity:0;
+    pointer-events:none;
+    transition: opacity 0.1s;
+}
+
+.search-icon-container:hover .tooltip{
+    opacity:1;
+}
+
+.search-icon{
+    width: 44px;
+    height:44px;
+    border-radius: 22px;
+    transition: background-color 0.1s;
+}
+
+
+
+.search-icon:hover{
+    background-color: lightgray;
+}
+
+.right-side-header{
+    background-color:black;
+    display:flex;
+    align-items: center;
+    position:relative;
+}
+
+.login-button-container .tooltip{
+    bottom:-20px;
+    opacity:0;
+    pointer-events:none;
+    transition: opacity 0.1s;
+}
+
+.login-button-container:hover .tooltip{
+    opacity:1;
+}
+.user-acc{
+    color:blueviolet;
+    background-color: white;
+    border-width:1px;
+    border-color: blueviolet;
+    border-style: solid;
+    padding:10px 10px;
+    transition: color 0.1s,background-color 0.1s;
+    border-radius: 4px;
+    margin-right:50px;
+}
+
+.user-acc:hover{
+    color:white;
+    background-color: blueviolet;
+}
+
+
+.language-icon{
+    width:50px;
+    margin-right:20px;
+}
+
+
+.language-container .tooltip{
+    bottom:-20px;
+    right:10px;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity 0.1s;
+}
+
+.language-container:hover .tooltip{
+    opacity:1;
+}
+
+.tooltip{
+    position:absolute;
+    color:white;
+    background-color: gray;
+    z-index:200;
+}
+
+
